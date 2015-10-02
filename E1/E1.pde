@@ -7,8 +7,8 @@ void setup()
   size(500,500);
   background(255);
   
-  x=0;
-  y=0;
+  x=50;
+  y=50;
  
   
 }
@@ -26,14 +26,14 @@ void draw()
   
   strokeWeight(0);
   fill(0);
-   
-  ellipse(150,200,50-x,50-x);
-  ellipse(350,200,50-y,50-y);
-
-x++;
-y++;
-
- println(x,y);
-
   
+  ellipse(150,200,x,x);
+  ellipse(350,200,y,y);
+
+x--;
+y--;
+
+x %=750;
+y %=750;
+
 }
