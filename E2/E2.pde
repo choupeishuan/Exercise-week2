@@ -38,7 +38,7 @@ void draw()
 
  y=floor(random(500));
   
-  
+
  
 
 }
