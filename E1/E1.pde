@@ -26,7 +26,7 @@ void draw()
   
   strokeWeight(0);
   fill(0);
-  
+   
   ellipse(150,200,50-x,50-x);
   ellipse(350,200,50-y,50-y);
 
