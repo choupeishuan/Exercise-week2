@@ -1,5 +1,4 @@
-
-  int x;
+ int x;
   int y;
 
 void setup()
@@ -29,11 +28,16 @@ void draw()
   
   ellipse(150,200,x,x);
   ellipse(350,200,y,y);
+  
+  x--;
+  y--;
+  
+  x %=750;
+  y %=750;
 
-x--;
-y--;
 
-x %=750;
-y %=750;
 
+
+
+  
 }
