@@ -10,10 +10,10 @@ void setup()
   x=0;
 
   
- img0 = loadImage("img/0.jpg");
- img1 = loadImage("img/1.jpg");
- img2 = loadImage("img/2.jpg");
- img3 = loadImage("img/3.jpg");
+ img0 = loadImage("E3Pic/0.jpg");
+ img1 = loadImage("E3Pic/1.jpg");
+ img2 = loadImage("E3Pic/2.jpg");
+ img3 = loadImage("E3Pic/3.jpg");
 }
 
 void draw()
