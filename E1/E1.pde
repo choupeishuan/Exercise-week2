@@ -31,9 +31,9 @@ void draw()
   
   x-=y;
   
-  if(x<0){
+  if(x<0)
      y*=-1;
-  }
+ 
   
 
  
