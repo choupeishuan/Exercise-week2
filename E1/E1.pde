@@ -35,6 +35,6 @@ void draw()
      y*=-1;
   }
   
- println(x);
+
  
 }
