@@ -1,6 +1,5 @@
-
-  int x;
-  int y;
+int x;
+int y;
 
  
 void setup()
@@ -9,7 +8,7 @@ void setup()
   background(255);
   
   x=50;
-  y=50;
+  y=1;
 
 }
 
@@ -28,14 +27,12 @@ void draw()
   fill(0);
   
   ellipse(150,200,x,x);
-  ellipse(350,200,y,y);
-
-
-      
-  x--;
-  y--;
-  x %=+750;
-  y %=+750;
-
+  ellipse(350,200,x,x);
   
+  x-=y;
+  
+  if(x<0){
+     y*=-1;
+  }
+
 }
