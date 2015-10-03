@@ -34,5 +34,7 @@ void draw()
   if(x<0){
      y*=-1;
   }
-
+  
+ println(x);
+ 
 }
